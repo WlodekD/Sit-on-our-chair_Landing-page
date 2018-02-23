@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+header {
+    height: 40px;
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    color: white;
+    top: 13px;
+}
+
+h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+span {
+    color: #39b4a8;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    margin: 10px;
+}
+
+.menu a {
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.section1 article {
+    height: 500px;
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 61%, #cccccc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #eeeeee 61%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #eeeeee 61%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+}
+
+.black_chair {
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+    /*box-sizing: border-box;*/
+}
+
+.black_chair img {
+    width: 50%;
+    position: absolute;
+    top: 90px;
+}
+
+.section1 article a {
+    text-decoration: none;
+    font-size: 80px;
+    position: absolute;
+    top: 220px;
+    color: #39b4a8;
+    left: 70px;
+}
+
+.section1_b {
+    position: absolute;
+    display: block;
+    background-color: pink;
+    width: 600px;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.chair_sit {
+    position: absolute;
+    top: 140px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.chair_sit h2 {
+    font-weight: 400;
+}
+
+.dropdown {
+    position: absolute;
+    width: 120px;
+    height: 95px;
+    background-color: black;
+    top: 12px;
+    right: 260px;
+}
