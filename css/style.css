@@ -243,16 +243,60 @@ h2 span {
     right: 78px;
     width: 340px;
     height: 225px;
-    background-color: pink;
+    background-color: #008CBA;
 }
 
-.box_chair3:hover {
+.overlay {
     position: absolute;
     top: 28px;
     right: 78px;
     width: 340px;
     height: 255px;
-    background-color: gold;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+    border: 1px solid gainsboro;
+}
+
+.overlay_container:hover .overlay {
+    opacity: 1;
+}
+
+.underline2 {
+    position: absolute;
+    top: 48px;
+    left: 23px;
+    height: 7px;
+    width: 138px;
+    background-color: #39b4a8;;
+}
+
+.overlay_text1 {
+    position: absolute;
+    width: 290px;
+    font-family: 'ralewaylight', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    top: 68px;
+    left: 23px;
+}
+
+.overlay_text2 {
+    position: absolute;
+    width: 290px;
+    font-family: 'ralewaylight', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    left: 23px;
+    bottom: 45px;
+}
+
+.box_chair3_kind p{
+    position: absolute;
+    font-family: 'ralewaymedium', sans-serif;
+    top: 27px;
+    left: 24px;
+    font-weight: 600;
 }
 
 .section2 article div .chair1 {
