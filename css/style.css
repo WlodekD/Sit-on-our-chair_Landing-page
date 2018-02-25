@@ -77,18 +77,17 @@ div .menu {
 
 .section1 article {
     height: 504px;
-    background: #eeeeee; /* Old browsers */
-    background: -moz-linear-gradient(top, #eeeeee 61%, #cccccc 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #eeeeee 61%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #eeeeee 61%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 32%, rgba(241,241,241,1) 58%, rgba(225,225,225,1) 100%, rgba(246,246,246,1) 100%, rgba(225,225,225,1) 101%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 32%,rgba(241,241,241,1) 58%,rgba(225,225,225,1) 100%,rgba(246,246,246,1) 100%,rgba(225,225,225,1) 101%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 32%,rgba(241,241,241,1) 58%,rgba(225,225,225,1) 100%,rgba(246,246,246,1) 100%,rgba(225,225,225,1) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e1e1e1',GradientType=0 ); /* IE6-9 */
 }
 
 .black_chair {
     position: relative;
     left: 25px;
     bottom: 25px;
-    /*box-sizing: border-box;*/
 }
 
 .black_chair img {
@@ -343,5 +342,399 @@ h2 span {
     left: 12px;
     height: 7px;
     width: 140px;
-    background-color: #39b4a8;;
+    background-color: #39b4a8;
+}
+
+.section3 {
+    height: 724px;
+    background: rgb(226,226,226); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 15%, rgba(219,219,219,1) 28%, rgba(254,254,254,1) 85%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 15%,rgba(219,219,219,1) 28%,rgba(254,254,254,1) 85%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 15%,rgba(219,219,219,1) 28%,rgba(254,254,254,1) 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+}
+.price_list {
+    position: absolute;
+    width: 326px;
+    height: 40px;
+    left: 67px;
+    top: 46px;
+}
+
+.price_list p {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'ralewaymedium', sans-serif;
+ }
+
+.price_underline {
+    position: absolute;
+    width: 321px;
+    height: 8px;
+    background-color: #39b4a8;
+    bottom: 0;
+}
+
+.hook {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    background-color: white;
+    top: -38px;
+    left: 138px;
+    border-radius: 50% 50%;
+    border: 1px solid gainsboro;
+}
+
+.hook2 {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    background-color: #39b4a8;
+    top: -38px;
+    left: 138px;
+    border-radius: 50% 50%;
+}
+
+.inside_hook {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 50%;
+    background-color: gainsboro;
+    left: 14px;
+    top: 14px;
+}
+
+.inside_hook2 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 50%;
+    background-color: white;
+    left: 14px;
+    top: 14px;
+}
+
+.basic_plan {
+    position: absolute;
+    width: 328px;
+    height: 500px;
+    background-color: ghostwhite;
+    top: 159px;
+    left: 67px;
+    border: 2px solid gainsboro;
+}
+
+.standard_plan {
+    position: absolute;
+    width: 328px;
+    height: 500px;
+    background-color: #39b4a8;
+    top: 160px;
+    left: 428px;
+}
+
+.advance_plan {
+    position: absolute;
+    width: 328px;
+    height: 500px;
+    background-color: ghostwhite;
+    top: 159px;
+    right: 83px;
+    border: 2px solid gainsboro;
+}
+
+.pay_plan2 {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.8px;
+    font-size: 24px;
+    top: 28px;
+    left: 73px;
+    color: white;
+    font-weight: 600;
+}
+
+.pay_plan {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.8px;
+    font-size: 24px;
+    top: 28px;
+    left: 101px;
+    color: #39b4a8;
+    font-weight: 600;
+}
+
+.pay_plan3 {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.8px;
+    font-size: 24px;
+    top: 26px;
+    left: 75px;
+    color: #39b4a8;
+    font-weight: 600;
+}
+
+.purchase {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    letter-spacing: -0.8px;
+    font-size: 24px;
+    top: 245px;
+    font-weight: 400;
+    width: 100%;
+    height: 44px;
+    background-color: gainsboro;
+    color: darkgrey;
+}
+
+.purchase2 {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    letter-spacing: -0.8px;
+    font-size: 24px;
+    top: 245px;
+    font-weight: 400;
+    width: 100%;
+    height: 44px;
+    background-color: white;
+    color: darkgrey;
+}
+
+.service {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    letter-spacing: -0.8px;
+    font-size: 24px;
+    top: 289px;
+    font-weight: 400;
+    width: 100%;
+    height: 44px;
+    background-color: #eeeeee;
+    color: darkgrey;
+}
+
+.service2 {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    letter-spacing: -0.8px;
+    font-size: 24px;
+    top: 289px;
+    font-weight: 400;
+    width: 100%;
+    height: 44px;
+    background-color: gainsboro;
+    color: darkgrey;
+}
+
+.purchase p {
+    position: absolute;
+    margin: 0 auto;
+    top: 6px;
+    left: 44px;
+    letter-spacing: 0.2px;
+    font-family: 'ralewaylight', sans-serif;
+}
+
+.purchase2 p {
+    position: absolute;
+    margin: 0 auto;
+    top: 6px;
+    left: 44px;
+    letter-spacing: 0.2px;
+    font-family: 'ralewaylight', sans-serif;
+}
+
+.service p {
+    position: absolute;
+    margin: 0 auto;
+    top: 6px;
+    left: 128px;
+    letter-spacing: 0.2px;
+    font-family: 'ralewaylight', sans-serif;
+}
+
+.service2 p {
+    position: absolute;
+    margin: 0 auto;
+    top: 6px;
+    left: 128px;
+    letter-spacing: 0.2px;
+    font-family: 'ralewaylight', sans-serif;
+}
+
+.warranty {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    letter-spacing: -0.8px;
+    font-size: 24px;
+    bottom: 123px;
+    font-weight: 400;
+    width: 100%;
+    height: 44px;
+    background-color: white;
+    color: darkgrey;
+}
+
+.warranty2 {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    letter-spacing: -0.8px;
+    font-size: 24px;
+    bottom: 124px;
+    font-weight: 400;
+    width: 100%;
+    height: 44px;
+    background-color: gainsboro;
+    color: darkgrey;
+}
+
+.advices {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    letter-spacing: -0.8px;
+    font-size: 24px;
+    bottom: 80px;
+    font-weight: 400;
+    width: 100%;
+    height: 44px;
+    background-color: #eeeeee;
+    color: darkgrey;
+}
+
+.warranty p {
+    position: absolute;
+    margin: 0 auto;
+    top: 6px;
+    left: 78px;
+    letter-spacing: 0.2px;
+    font-family: 'ralewaylight', sans-serif;
+}
+
+.warranty2 p {
+    position: absolute;
+    margin: 0 auto;
+    top: 9px;
+    left: 87px;
+    letter-spacing: 0.2px;
+    font-family: 'ralewaylight', sans-serif;
+}
+
+.advices p {
+    position: absolute;
+    margin: 0 auto;
+    top: 9px;
+    left: 67px;
+    letter-spacing: 0.2px;
+    font-family: 'ralewaylight', sans-serif;
+}
+
+.join {
+    position: absolute;
+    bottom: 21px;
+    left: 105px;
+    background-color: #39b4a8;
+    width: 122px;
+    height: 34px;
+    color: white;
+    border-radius: 5px 5px;
+}
+
+.join2 {
+    position: absolute;
+    bottom: 21px;
+    left: 105px;
+    background-color: white;
+    width: 122px;
+    height: 34px;
+    color: #39b4a8;
+    border-radius: 5px 5px;
+}
+
+.join p {
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'ralewaymedium', sans-serif;
+}
+
+.join2 p {
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'ralewaymedium', sans-serif;
+}
+
+.circle {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid gainsboro;
+    border-radius: 50% 50%;
+    color: darkgrey;
+    background-color: white;
+}
+
+.circle2 {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50% 50%;
+    color: #39b4a8;
+    background-color: white;
+}
+
+.price_zl {
+    position: absolute;
+    font-family: 'ralewaymedium', sans-serif;
+    left: 33px;
+    top: 31px;
+    font-size: 41px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.price_zl_3 {
+    position: absolute;
+    font-family: 'ralewaymedium', sans-serif;
+    left: 20px;
+    top: 31px;
+    font-size: 41px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.price_gr {
+    position: absolute;
+    font-family: 'ralewaymedium', sans-serif;
+    right: 28px;
+    top: 29px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.period {
+    position: absolute;
+    bottom: 29px;
+    left: 25px;
+    letter-spacing: 1px;
+    font-family: 'ralewaymedium', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+
 }
