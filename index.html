@@ -208,10 +208,50 @@
     </section>
     <section class="container section4">
         <article>
+            <div class="price_list">
+                <p>kontakt</p>
+                <div class="price_underline"></div>
+            </div>
+            <!--<form>-->
+                <!--<label for="user_name"></label>-->
+                <!--<input type="text" id="user_name" name="name" placeholder="Imię">-->
+                <!--<label for="user_email"></label>-->
+                <!--<input type="email" id="user_email" name="email" placeholder="email">-->
+                <!--<label>-->
+                    <!--<input type="checkbox" name="agreement">-->
+                    <!--Zgadzam się na przetwarzanie danych osobowych-->
+                <!--</label>-->
+                <!--<label>-->
+                    <!--<textarea cols="50" rows="10"></textarea>-->
+                <!--</label>-->
+                <!--<input type="submit" name="registeruser" value="Zapisz">-->
 
+            <!--</form>-->
+            <form class="contactForm">
+                <div class="label_block">
+                    <label for="user_name"></label>
+                    <input id="user_name" type="text" name="name" placeholder="name">
+                    <label for="user_email"></label>
+                    <input id="user_email" type="email" name="email" placeholder="email">
+                </div>
+                <div class="textarea_checkbox">
+                    <div>
+                        <label>
+                            <textarea cols="70" rows="10" placeholder="Wiadomość"></textarea>
+                            <input id="submit" type="submit" value="wyślij">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="agreement" class="class_checkbox">
+                            <p>Zgadzam się na przetwarzanie danych osobowych</p>
+                        </label>
+                    </div>
+                </div>
+            </form>
         </article>
     </section>
-    <footer>
+    <footer class="container">
 
     </footer>
 </body>

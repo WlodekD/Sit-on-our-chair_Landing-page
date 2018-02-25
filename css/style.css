@@ -346,7 +346,7 @@ h2 span {
 }
 
 .section3 {
-    height: 724px;
+    height: 727px;
     background: rgb(226,226,226); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 15%, rgba(219,219,219,1) 28%, rgba(254,254,254,1) 85%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 15%,rgba(219,219,219,1) 28%,rgba(254,254,254,1) 85%); /* Chrome10-25,Safari5.1-6 */
@@ -737,4 +737,63 @@ h2 span {
     font-size: 15px;
     text-transform: uppercase;
 
+}
+
+.section4 {
+    height: 550px;
+    background-color: pink;
+}
+
+footer {
+    height: 103px;
+    background-color: lightblue;
+}
+
+.label_block {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.label_block label {
+    display: block;
+}
+
+.textarea_checkbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.textarea_checkbox div:nth-of-type(1) {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.textarea_checkbox div:nth-of-type(2) {
+    position: absolute;
+    display: inline;
+    background-color: gold;
+    width: 370px;
+    height: 50px;
+    right: 66px;
+    bottom: 170px;
+}
+
+.textarea_checkbox div:nth-of-type(2) input {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.textarea_checkbox div:nth-of-type(2) p {
+    position: absolute;
+    font-family: 'ralewaylight', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 300px;
+    height: 50px;
+    right: 8px;
+    top: 4px;
 }
